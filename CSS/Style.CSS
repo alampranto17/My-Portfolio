@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+ /* font-family: "Montserrat", sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+
+  font-family: "Montserrat", sans-serif;
+
+}
+nav{
+  position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    height: 60px; 
+    background-color:#2D4F2B;
+    width: 100%;
+}
+
+.bagcolor{
+ background-color: #f5f8eb;
+}
+
+nav .left{
+  width: 50%;
+  margin-left: 4rem;
+  color: azure;
+}
+
+nav .right{
+  width: 50%;
+}
+
+
+nav .right ul{
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 10px;
+
+}
+
+nav ul li a{
+  text-decoration: none;
+  color:white;
+}
+
+nav ul li a:hover{
+  color: rgb(70, 218, 11);
+  font-size: 0.90rem;
+  
+}
+
+
+
+
+.left{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 115px 0px;
+}
+
+.banner .leftbanner {
+  width: 30%;
+  font-size: 2.0rem;
+  margin-left: 50px;
+  
+}
+
+.banner .leftbanner #highlighter{
+  color: #05360b;   /* cyan */
+  font-weight: bold;
+  font-size: 2rem;
+  
+}
+
+.banner .leftbanner #element{
+  color: #05360b;   /* cyan */
+  font-weight: bold;
+  font-size: 2rem;
+  
+}
+
+.banner .rightbanner {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.banner .rightbanner img {
+  width: 70%
+  
+}
+
+.button{
+    color: white;
+    background-color: #424773;
+    padding: 15px;
+    margin-top: 80px;
+    border: none;
+    border-radius: 11;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.b2{
+  padding: 15px 40px;
+}
+
+
+#firsthr{
+  color: rgb(0, 0, 0);
+  margin-left:5%;
+  margin-right: 5%;
+}
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* Section about me */
+
+.About{
+  padding: 130px 150px;
+  border-radius: 10px;
+  margin: 5% 0;
+}
+
+
+.sectionHeader{
+  text-align: center;
+}
+
+p{
+  padding-top: 30px;
+  text-align: center;
+}
+
+.aboutItems{
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Education Quatification */
+
+.education{
+  padding: 10%;
+
+}
+
+.box{
+     width: 150vh;
+    height: 2px;
+    background-color: black;
+    margin: 56px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box .vartical{
+
+  height: 40px;
+  width: 1px;
+  background-color: black;
+
+}
+
+.box .vartical img{
+  position: relative;
+    width: 40px;
+    /* margin: -31px; */
+    top: -35px;
+    left: -15px;
+}
+
+.box .vartical h5{
+    position: relative;
+    top: 39px;
+    width:180px;;
+    left: -52px;
+}
+
+.box .vartical .Description
+{
+    position: relative;
+    top: 42px;
+    width: 170px;
+    left: -52px;
+    font-size: 9px;
+}
+
+
+
+
+
+/* Skill section*/
+
+.SecondContainer{
+  padding: 10% 2%;
+  border-radius: 10px;
+  margin: 5% 0;
+
+}
+.SecondContainer .sectionHeader{
+  padding-bottom: 4%;
+}
+
+.skill_container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* margin: 0px auto; */
+  gap: 2% ;
+
+}
+
+.skill_container .skill{
+  padding: 3% 5%;
+  background-color: white;
+  border-radius: 5%;
+   box-shadow: 5px 5px 10px rgb(99, 94, 94);
+}
+
+.skill img{
+  width: 20%;
+  padding-bottom: 4%;
+}
+
+.skill h4{
+  font-family: Cambria;
+  font-weight: 600;
+  padding-bottom: 4%;
+}
+.skill .Discription{
+  padding: 0 auto;
+  text-align: justify;
+}
+
+/* Project section */
+
+.projectSection{
+
+   padding: 10% 2%;
+  border-radius: 10px;
+  margin: 5% 0;
+
+}
+
+.projectContainer{
+
+  
+}
+
+
+
+.projectContainer .project{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 5% 0%;
+
+
+}
+
+.projectContainer .project:nth-child(even) {
+  text-align: center;
+  margin-left: 30%;
+}
+
+.projectContainer .project:nth-child(odd) {
+  text-align: center;
+  margin-right: 30%;
+}
+
+
+.projectContainer .project .descripsion{
+  padding: 2% 0%;
+  text-align: center;
+}
+.projectContainer .project a{
+  align-items: left;
+}
+
+.projectContainer .project a img{
+  width: 5%;
+  display: block;
+}
+
+/* Contact me section */
+
+.contactMe{
+  padding: 10%;
+}
+
+table {
+      
+      padding: 20px;
+      
+      margin: 0% auto;
+      border-collapse: separate;
+      border-spacing: 0 15px;
+      display: flex;
+      flex-direction: column;
+
+    }
+   
+
+     .center-text {
+            text-align: center;
+        }
+
+        .right-alignment {
+            text-align: right;
+            font-weight: bold;
+            padding-right: 30px;
+        }
+
+        input{
+          width: 300px;     
+           height: 30px;    
+          font-size: 12px;  
+          padding: 4px
+        }
+        
+        table textarea{
+          margin-left: 77%;
+          
+        }
+
+        button{
+          align-items: center;
+          padding: 2% 4%;
+          margin-left:23px ;
+        }
+      footer{
+          background-color: rgb(22, 34, 36);
+          padding: 20px;
+      }
+
+       .footer-container {
+  display: flex;
+  justify-content: space-between; /* puts left & right side apart */
+  align-items: center; /* centers vertically */
+
+  padding: 20px 40px; /* add some space around */
+}
+
+.footer-container  .Contact {
+  color: #f5f8eb;
+}
+
+.footer-container .Contact table {
+  color: #f5f8eb;
+}
+
+.followMe {
+  display: flex;
+  gap: 15px; /* spacing between icons */
+}
+
+.followMe img {
+  width: 30px; /* fixed size looks better than percentage */
+  height: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.followMe img:hover {
+  transform: scale(1.1);
+
+}
+
+footer .copy{
+  color: white;
+}
+
+.linkHeader{
+    position: relative;
+    top: -42px;
+    color: white;
+    left: 105px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
